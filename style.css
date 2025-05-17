@@ -1,0 +1,147 @@
+body {
+    margin: 5% 20%;
+    background-image: url(img/Rosa\ Coral\ Verde\ Ilustração\ de\ Aniversário\ Aniversário\ de\ Crianças\ Post\ para\ Facebook\ \(1\).png);
+    color: #211951;
+    font-family: "Gorditas", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.imagem_1 {
+    width: 250px;
+    height: 370px;
+    border-color: white;
+    transform: rotate(15deg);
+}
+
+.imagem_2 {
+    width: 250px;
+    height: 370px;
+    border-color: white;
+    transform: rotate(-15deg);
+}
+
+.container_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_4 {
+    margin: 7% 33%;
+}
+
+.texto {
+    background-color: #F0F3FF;
+    text-align: center;
+    border-radius: 15px;
+    border-color: #211951;
+}
+
+.botao {
+    padding: 30px;
+    font-family: "Gorditas", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #211951;
+    background-color: #a8b0d3;
+    border-color: #FF204E;
+    border-radius: 50px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media (max-width :1000px) {
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imagem_2 {
+    width: 170px;
+    height: 260px;
+    border-color: white;
+    transform: rotate(15deg);
+}
+
+.imagem_1 {
+    width: 170px;
+    height: 260px;
+    border-color: white;
+    transform: rotate(-15deg);
+}
+
+.container_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.container_2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.container_3 {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+.titulo{
+    font-size: 45px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.frase {
+    font-size: 30px;
+} 
+
+.botao {
+    padding: 20px;
+    font-family: "Gorditas", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #211951;
+    background-color: #a8b0d3;
+    border-color: #FF204E;
+    border-radius: 50px;
+}
+
+}
